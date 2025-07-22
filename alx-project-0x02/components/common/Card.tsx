@@ -1,6 +1,6 @@
 import { CardProps } from "@/interfaces";
 
-export const Card : React.FC<CardProps> = ({title, content} ) => {
+const Card : React.FC<CardProps> = ({title, content} ) => {
   return (
     <div className="border p-4 rounded shadow-md">
       <h2 className="text-xl font-bold mb-1">{title}</h2>
@@ -8,3 +8,5 @@ export const Card : React.FC<CardProps> = ({title, content} ) => {
     </div>
   );
 }
+
+export default Card;
