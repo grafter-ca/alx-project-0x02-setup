@@ -3,7 +3,7 @@ import React from "react";
 
 const Header: React.FC = () => (
   <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
-     <h1 className="text-2xl font-bold"><Link href="/">AirBNB Cloning</Link></h1>
+     <h1 className="text-2xl font-bold"><Link href="/"> Airbnb Clone</Link></h1>
     <nav>
         <div className="flex space-x-4">
         <Link href="/home">Home</Link>

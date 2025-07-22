@@ -1,7 +1,6 @@
 export interface CardProps {
   title: string;
-    content: string;
-    imageUrl?: string;
+  content: string;
 }
 
 export interface ButtonProps {
