@@ -30,5 +30,5 @@ export interface PostProps {
   id?: string;
   userId : string;
   title: string;
-  content: string;
+  body: string;
 }
