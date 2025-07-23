@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import PostCard from "@/components/common/PostCard";
-import { PostProps } from "@/interfaces";
+import { type PostProps } from "@/interfaces";
 import Header from "@/components/layout/Header";
 
 const Posts = () => {
