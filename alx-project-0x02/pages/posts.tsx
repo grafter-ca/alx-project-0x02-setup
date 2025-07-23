@@ -37,7 +37,7 @@ export async function getStaticProps() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   const data: PostProps[] = await res.json();
 
-  // Only use the first 8 posts for demo
+  // Only use the first 9 posts for demo
   const posts = data.slice(0, 9);
 
   return {
