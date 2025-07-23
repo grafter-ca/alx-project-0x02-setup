@@ -4,8 +4,11 @@ export interface CardProps {
 }
 
 export interface ButtonProps {
-  label: string;
-  onClick: () => void;
+  size?: "small" | "medium" | "large";
+  shape?: "rounded-sm" | "rounded-md" | "rounded-full";
+  children: React.ReactNode;
+  onClick?: () => void;
+  className?: string;
 }
 
 export interface HeaderProps {
