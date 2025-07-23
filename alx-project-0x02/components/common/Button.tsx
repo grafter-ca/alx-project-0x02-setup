@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import {type ButtonProps } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
 import clsx from "clsx"; // Optional: for cleaner class merging
 
 const sizeClasses = {
