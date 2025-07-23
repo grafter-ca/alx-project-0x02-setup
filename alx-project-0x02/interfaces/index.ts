@@ -15,3 +15,9 @@ export interface HeaderProps {
      label: string 
     }[];
 }
+
+export interface ModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  onSubmit: (data: CardProps) => void;
+}
