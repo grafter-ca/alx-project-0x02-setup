@@ -24,3 +24,11 @@ export interface ModalProps {
   onClose: () => void;
   onSubmit: (data: CardProps) => void;
 }
+
+
+export interface PostProps {
+  id?: string;
+  userId : string;
+  title: string;
+  content: string;
+}
